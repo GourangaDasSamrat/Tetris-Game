@@ -34,6 +34,7 @@ This game utilizes the following technologies:
 
 1.  Clone this repository:
     ```bash
+    git@github.com:GourangaDasSamrat/Tetris-Game.git
     
 2.  Navigate to the project directory:
     ```bash
