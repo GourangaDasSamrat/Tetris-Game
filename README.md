@@ -10,6 +10,10 @@ Check out the live version of the game: [Tetris-Game]()
 📹 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
 
+https://github.com/user-attachments/assets/69d0ac1d-d002-4600-84e6-3c45b7d901f3
+
+
+
 ## ✨ Features
 
 * Easy control with the keyboard. ⌨️
