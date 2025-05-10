@@ -5,7 +5,7 @@ Play a classic Tetris game with keyboard controls! 🎮
 This game is built using HTML, CSS, JavaScript, and p5.js. 🚀
 
 🌟 **Live Demo**
-Check out the live version of the game: [Tetris-Game](https://tetrisgamebygouranga.tiiny.site)
+Check out the live version of the game: [Tetris-Game](https://tetris-game-rose-eight.vercel.app/)
 
 📹 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
@@ -44,7 +44,7 @@ This game utilizes the following technologies:
 
 or
 
-**[Click here](https://tetrisgamebygouranga.tiiny.site) to see this project on internet.**
+**[Click here](https://tetris-game-rose-eight.vercel.app/) to see this project on internet.**
 
 ## 🎮 How to Play
 
