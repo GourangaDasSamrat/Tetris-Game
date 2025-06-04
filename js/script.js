@@ -1,22 +1,48 @@
-// Check if device is mobile
-function isMobileDevice() {
-  return (
-    typeof window.orientation !== "undefined" ||
-    navigator.userAgent.indexOf("IEMobile") !== -1 ||
-    /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
-  );
+// Setup mobile controls
+function setupMobileControls() {
+  const leftBtn = document.querySelector(".left-btn");
+  const rightBtn = document.querySelector(".right-btn");
+  const downBtn = document.querySelector(".down-btn");
+  const rotateBtn = document.querySelector(".rotate-btn");
+  const dropBtn = document.querySelector(".drop-btn");
+
+  // Add touch event listeners
+  leftBtn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    moveLeft();
+  });
+
+  rightBtn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    moveRight();
+  });
+
+  downBtn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    updateEveryCurrent = 1;
+  });
+
+  downBtn.addEventListener("touchend", (e) => {
+    e.preventDefault();
+    updateEveryCurrent = updateEvery;
+  });
+
+  rotateBtn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    rotate();
+  });
+
+  dropBtn.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    hardDrop();
+  });
 }
 
-// Show mobile message if on mobile device
-window.addEventListener("load", function () {
-  if (isMobileDevice()) {
-    document.querySelector(".mobile-message").style.display = "block";
-    noLoop(); // Stop the game loop
-  }
-});
+// Initialize mobile controls
+window.addEventListener("load", setupMobileControls);
 
 // Define the size of each grid space
-const gridSpace = 30;
+let gridSpace = 30;
 
 // Declare variables
 let fallingPiece;
@@ -52,7 +78,15 @@ const colors = [
 
 // Setup function called once at beginning
 function setup() {
-  createCanvas(600, 540);
+  // Create responsive canvas
+  let canvasWidth = min(600, windowWidth * 0.95);
+  let canvasHeight = min(540, windowHeight * 0.8);
+  createCanvas(canvasWidth, canvasHeight);
+
+  // Adjust grid space based on canvas size
+  if (windowWidth < 768) {
+    gridSpace = floor(min(25, canvasWidth / 20));
+  }
 
   // Create a new falling piece
   fallingPiece = new PlayPiece();
@@ -214,6 +248,34 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
       fallingPiece.input(UP_ARROW);
     }
+  }
+}
+
+// Movement functions for mobile controls
+function moveLeft() {
+  if (!pauseGame && !gameOver) {
+    fallingPiece.input(LEFT_ARROW);
+  }
+}
+
+function moveRight() {
+  if (!pauseGame && !gameOver) {
+    fallingPiece.input(RIGHT_ARROW);
+  }
+}
+
+function rotate() {
+  if (!pauseGame && !gameOver) {
+    fallingPiece.input(UP_ARROW);
+  }
+}
+
+function hardDrop() {
+  if (!pauseGame && !gameOver) {
+    while (!fallingPiece.futureCollision(0, fallSpeed, fallingPiece.rotation)) {
+      fallingPiece.addPos(0, fallSpeed);
+    }
+    fallingPiece.commitShape();
   }
 }
 
@@ -548,4 +610,17 @@ function resetGame() {
   fallSpeed = gridSpace * 0.5;
   pauseGame = false;
   gameOver = false;
+}
+
+// Handle window resizing
+function windowResized() {
+  let canvasWidth = min(600, windowWidth * 0.95);
+  let canvasHeight = min(540, windowHeight * 0.8);
+  resizeCanvas(canvasWidth, canvasHeight);
+
+  if (windowWidth < 768) {
+    gridSpace = floor(min(25, canvasWidth / 20));
+  } else {
+    gridSpace = 30;
+  }
 }

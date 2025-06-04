@@ -2,26 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Tetris Game</title>
   </head>
 
   <body>
-    <div class="mobile-message">
-      <div class="mobile-message-content">
-        <h1>Desktop Only Game</h1>
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIyIiB5PSIzIiB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSI4IiB5MT0iMjEiIHgyPSIxNiIgeTI9IjIxIj48L2xpbmU+PGxpbmUgeDE9IjEyIiB5MT0iMTciIHgyPSIxMiIgeTI9IjIxIj48L2xpbmU+PC9zdmc+"
-          alt="Desktop computer icon"
-        />
-        <p>This Tetris game requires a physical keyboard to play.</p>
-        <p>
-          Please open this game on a desktop or laptop computer for the best
-          experience.
-        </p>
+    <div class="mobile-controls">
+      <div class="control-row">
+        <button class="control-btn rotate-btn">↻</button>
       </div>
+      <div class="control-row">
+        <button class="control-btn left-btn">←</button>
+        <button class="control-btn down-btn">↓</button>
+        <button class="control-btn right-btn">→</button>
+      </div>
+      <button class="control-btn drop-btn">Drop</button>
     </div>
 
     <script src="p5/lib/p5.min.js"></script>

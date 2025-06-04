@@ -45,8 +45,55 @@ body {
   color: #ddd;
 }
 
-.mobile-message img {
-  width: 64px;
-  height: 64px;
+.mobile-controls {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 1000;
+}
+
+.control-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 20px;
+}
+
+.control-btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.control-btn:active {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.drop-btn {
+  width: 120px;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mobile-controls {
+    display: block;
+  }
 }
