@@ -1,6 +1,8 @@
+<div align="center">
+
 # 🎮 Tetris Game
 
-<div align="center">
+[![Banner](https://user-images.githubusercontent.com/13468728/233831804-0f5c7ee5-d654-4c13-9c77-a5bd6dc4133c.jpg)](https://tetris-game-rose-eight.vercel.app/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/GourangaDasSamrat/Tetris-Game/graphs/commit-activity)
@@ -12,27 +14,69 @@
   <img src="https://img.icons8.com/color/96/000000/tetris.png" alt="Tetris Logo"/>
 </p>
 
-### 🚀 Experience the nostalgia of the classic Tetris game reimagined with modern web technologies
+<h3>
+  <strong>🚀 Experience the nostalgia of the classic Tetris game reimagined with modern web technologies</strong>
+</h3>
 
-[Play Now](https://tetris-game-rose-eight.vercel.app/) • [Report Bug](../../issues) • [Request Feature](../../issues)
+[Play Now](https://tetris-game-rose-eight.vercel.app/) •
+[Report Bug](../../issues) •
+[Request Feature](../../issues) •
+[Star Project](../../stargazers)
+
+[![GitHub stars](https://img.shields.io/github/stars/GourangaDasSamrat/Tetris-Game?style=social)](../../stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/GourangaDasSamrat/Tetris-Game?style=social)](../../network/members)
+
+---
 
 </div>
 
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#features">Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#getting-started">Getting Started</a>
+</p>
+
 ## ✨ Overview
+
+<table>
+<tr>
+<td>
 
 Welcome to our modern implementation of the classic Tetris game! This project combines the timeless gameplay of Tetris with contemporary web technologies to deliver a smooth, responsive, and engaging gaming experience.
 
-### 🎯 Key Features
+> **"Tetris is the perfect game: simple to learn, impossible to master."** - _Anonymous_
 
-- 🎮 Classic Tetris gameplay mechanics
-- 🖥️ Responsive design for all devices
-- 🎨 Modern UI with smooth animations
-- 🎵 Engaging sound effects
-- 📊 Real-time score tracking
-- ⚡ Optimized performance
-- 🌙 Multiple difficulty levels
+</td>
+</tr>
+</table>
 
-## 🛠️ Tech Stack
+## 🎯 Key Features
+
+<table>
+<tr>
+<td>
+
+- 🎮 **Classic Tetris Gameplay** - Authentic gameplay mechanics
+- 🖥️ **Responsive Design** - Seamless experience across all devices
+- 🎨 **Modern UI** - Beautiful interface with smooth animations
+- 🎵 **Sound Effects** - Engaging audio feedback
+- 📊 **Real-time Scoring** - Live score tracking and high scores
+- ⚡ **Optimized Performance** - Smooth, lag-free gameplay
+- 🌙 **Multiple Levels** - Progressive difficulty increase
+
+</td>
+</tr>
+</table>
+
+## 💫 Game Preview
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/13468728/233831909-554c7bd2-c39c-4b90-97ee-d54c3e9ee321.gif" alt="Tetris Gameplay" width="400" />
+</div>
+
+## 🚀 Tech Stack
 
 <div align="center">
 
@@ -62,16 +106,24 @@ Welcome to our modern implementation of the classic Tetris game! This project co
 
 ## 🎮 Game Controls
 
-| Key            | Action       |
-| -------------- | ------------ |
-| ⬅️ Left Arrow  | Move Left    |
-| ➡️ Right Arrow | Move Right   |
-| ⬆️ Up Arrow    | Rotate       |
-| ⬇️ Down Arrow  | Soft Drop    |
-| Space Bar      | Hard Drop    |
-| P              | Pause/Resume |
-| R              | Restart Game |
-| M              | Mute/Unmute  |
+<table>
+<tr>
+<td>
+
+| Key            | Action       | Description                               |
+| -------------- | ------------ | ----------------------------------------- |
+| ⬅️ Left Arrow  | Move Left    | Move the tetromino one space to the left  |
+| ➡️ Right Arrow | Move Right   | Move the tetromino one space to the right |
+| ⬆️ Up Arrow    | Rotate       | Rotate the tetromino clockwise            |
+| ⬇️ Down Arrow  | Soft Drop    | Accelerate the tetromino's descent        |
+| Space Bar      | Hard Drop    | Instantly drop the tetromino              |
+| P              | Pause/Resume | Pause or resume the game                  |
+| R              | Restart Game | Start a new game                          |
+| M              | Mute/Unmute  | Toggle sound effects                      |
+
+</td>
+</tr>
+</table>
 
 ## 🚀 Quick Start
 
@@ -130,6 +182,25 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 🌟 Support & Community
+
+<table>
+<tr>
+<td>
+
+- Star this repository
+- Follow for updates
+- Share with friends
+- Create pull requests
+- Report issues
+- Suggest features
+
+Your support keeps this project alive! ❤️
+
+</td>
+</tr>
+</table>
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -144,8 +215,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by [Your Name]
+### Made with ❤️ by [Gouranga Das](https://github.com/GourangaDasSamrat)
 
-If you like this project, please give it a ⭐
+<a href="https://www.buymeacoffee.com/gourangadas" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
+</a>
+
+**[⬆ back to top](#tetris-game)**
 
 </div>
