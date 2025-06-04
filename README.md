@@ -55,10 +55,6 @@
 ![Watchers](https://img.shields.io/github/watchers/GourangaDasSamrat/Tetris-Game?style=social)
 ![Forks](https://img.shields.io/github/forks/GourangaDasSamrat/Tetris-Game?style=social)
 
-<p align="center">
-  <img src="https://img.icons8.com/color/96/000000/tetris.png" alt="Tetris Logo"/>
-</p>
-
 <h3>
   <strong>🚀 Experience the nostalgia of the classic Tetris game reimagined with modern web technologies</strong>
 </h3>
@@ -305,6 +301,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author & Contact
 
 <p align="center">
+  <img src="https://i.postimg.cc/Bnwyx7kh/485760954-644674311798231-1067913994704069438-n.jpg" alt="Gouranga Das Samrat" width="110" style="border-radius:50%;margin-bottom:10px;box-shadow:0 2px 8px #ccc;"/>
+</p>
+
+<p align="center">
   <b>Gouranga Das Samrat</b><br>
   <i>Frontend Developer | JavaScript & React Expert | Open Source Enthusiast</i>
 </p>
@@ -341,6 +341,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=GourangaDasSamrat&color=blueviolet&style=flat-square&label=Profile+Views)](https://github.com/GourangaDasSamrat)
+[![Years Badge](https://badges.pufler.dev/years/GourangaDasSamrat?style=flat-square&color=blue)](https://github.com/GourangaDasSamrat)
+[![Repos Badge](https://badges.pufler.dev/repos/GourangaDasSamrat?style=flat-square&color=success)](https://github.com/GourangaDasSamrat)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/GourangaDasSamrat?style=flat-square&color=orange)](https://github.com/GourangaDasSamrat)
 
 ### Made with ❤️ by [Gouranga Das](https://github.com/GourangaDasSamrat)
 
