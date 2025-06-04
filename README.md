@@ -257,10 +257,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Made with ❤️ by [Gouranga Das](https://github.com/GourangaDasSamrat)
 
-<a href="https://www.buymeacoffee.com/gourangadas" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
-</a>
-
 **[⬆ back to top](#tetris-game)**
 
 </div>
