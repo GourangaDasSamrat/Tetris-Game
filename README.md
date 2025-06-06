@@ -10,50 +10,7 @@
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow.svg)](https://www.javascript.com)
 [![Built with P5.js](https://img.shields.io/badge/Built%20with-P5.js-ED225D.svg)](https://p5js.org)
 
-### 📊 Project Stats
 
-[![GitHub Issues](https://img.shields.io/github/issues/GourangaDasSamrat/Tetris-Game?style=flat&logo=github)](../../issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/GourangaDasSamrat/Tetris-Game?style=flat&logo=github)](../../pulls)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/GourangaDasSamrat/Tetris-Game?style=flat&logo=github)](../../commits)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/GourangaDasSamrat/Tetris-Game?style=flat&logo=github)](../../)
-[![GitHub Contributors](https://img.shields.io/github/contributors/GourangaDasSamrat/Tetris-Game?style=flat&logo=github)](../../graphs/contributors)
-
-### 🛠️ Development Stats
-
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-
-### 🌐 Browser Support
-
-![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
-![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox&logoColor=white)
-![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=safari&logoColor=white)
-![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white)
-![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=opera&logoColor=white)
-
-### 📱 Platform Support
-
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Mac](https://img.shields.io/badge/Mac-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-### 📈 Code Quality
-
-[![Code Climate](https://img.shields.io/codeclimate/maintainability/GourangaDasSamrat/Tetris-Game?style=flat&logo=code-climate)](https://codeclimate.com)
-[![DeepScan](https://img.shields.io/badge/DeepScan-Passed-46c020?style=flat&logo=deepscan)](https://deepscan.io)
-[![CodeQL](https://img.shields.io/badge/CodeQL-Passed-success?style=flat&logo=github)](https://github.com/features/security)
-[![Codecov](https://img.shields.io/codecov/c/github/GourangaDasSamrat/Tetris-Game?style=flat&logo=codecov)](https://codecov.io)
-
-### 🏆 Achievements
-
-![Stars](https://img.shields.io/github/stars/GourangaDasSamrat/Tetris-Game?style=social)
-![Watchers](https://img.shields.io/github/watchers/GourangaDasSamrat/Tetris-Game?style=social)
-![Forks](https://img.shields.io/github/forks/GourangaDasSamrat/Tetris-Game?style=social)
 
 <h3>
   <strong>🚀 Experience the nostalgia of the classic Tetris game reimagined with modern web technologies</strong>
